@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+            <form method="POST" action="contact.html">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+
+                    <label>Codigo: </label>
+                    <input type="number">
+                    <br />
+                    
+                    <label>Nome: </label>
+                    <input type="text">
+                    <br />
+
+                    <label>Senha: </label>
+                    <input type="password">
+                    <br />
+
+                    <label>
+                        <input type="radio" name="sexo">
+                        Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="sexo">
+                        Feminino
+                    </label>
+                    <br />
+
+                    <label for="idade">Idade: </label>
+                    <input type="number">
+                    <br />
+                    
+                    <label>Cartão de Crédito: </label>
+                    <br />
+                        <select multiple>
+                            <option>MasterCard</option>
+                            <option>Visa</option>
+                            <option>American Express</option>
+                        </select>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+
+                    <label>Cargo</label>
+                        <select>
+                            <option>Analista Júnior</option>
+                            <option>Analista Pleno</option>
+                            <option>Analista Sênior</option>
+                        </select>
+                        <br />
+                    
+                    <label>Dados Pessoais</label>
+                    <br />
+
+                    <label>
+                    <input type="checkbox"> Fumante
+                    </label>
+                    <br />
+
+                    <label>
+                        <input type="checkbox"> Pratica exercícios físicos
+
+                    </label>
+                    <br />
+
+                    <label>
+                        <input type="checkbox"> Consome bebida alcoólica
+                    </label>
+                    <br />
+
+                    <label>Experiências profissionais</label>
+                    <br />
+                    <textarea placeholder="Data Inicio / Data Fim / Empresa / Cargo" ></textarea>
+                    
+                </fieldset>
+                <input type="reset" value="Limpar" />
+                <input type="submit" value="Enviar" />
+            </form>
+    </body>
+</html>
